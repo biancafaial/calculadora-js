@@ -7,7 +7,7 @@ describe("Suite de teste de adição", function(){
     it('deve retornar 9 para 9 e -3 no formato texto', function(){
         expect(Calculadora.adicionar('9', '-3')).toEqual(6)
     });
-    it('deve retornar 4.5 para 1.5 vezes 3', function(){
+    it('deve retornar 4.5 para 1.5 mais 3', function(){
         expect(Calculadora.adicionar(1.5 , 3)).toEqual(4.5)
     });
     it('deve retornar 0 quando valor 1 não for numérico', function(){
