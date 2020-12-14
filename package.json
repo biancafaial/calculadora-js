@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap": "^3.4.1",
     "browserify": "^17.0.0",
     "jasmine": "^3.6.3",
     "karma": "^5.2.3",
